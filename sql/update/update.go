@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("mysql", "root:microsol05@/cursogo")
+	db, err := sql.Open("mysql", "root:pwd@/cursogo")
 
 	if err != nil {
 		log.Fatal(err)
